@@ -21,7 +21,7 @@ const RoomInspiration = () => {
         </div>
 
         {/* Bento Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-[800px] md:h-[600px]">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-200 md:h-150">
           {/* Main Large Feature - FadeInLeft */}
           <div className="md:col-span-7 relative group overflow-hidden rounded-3xl animate__animated animate__fadeInLeft">
             <Image
@@ -30,7 +30,7 @@ const RoomInspiration = () => {
               alt="Modern Bathroom"
               className="object-cover transition-transform duration-700 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8">
+            <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent flex flex-col justify-end p-8">
               <span className="badge badge-primary mb-2">Spa Collection</span>
               <h3 className="text-2xl font-bold text-white">
                 Minimalist Sanctuary
