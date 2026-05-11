@@ -46,8 +46,7 @@ const RoomInspiration = () => {
             {/* Top Right - FadeInRight */}
             <div className="relative group overflow-hidden rounded-3xl animate__animated animate__fadeInRight">
               <Image
-                width={2070}
-                height={1380}
+                fill
                 src="https://hips.hearstapps.com/hmg-prod/images/montana-labelle-1-642ed2bdb0e8a.jpg?crop=1.00xw:0.803xh;0,0.0295xh&resize=1200:*"
                 alt="Kitchen Backsplash"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -61,8 +60,7 @@ const RoomInspiration = () => {
             {/* Bottom Right - FadeInUp */}
             <div className="relative group overflow-hidden rounded-3xl animate__animated animate__fadeInUp">
               <Image
-                width={2070}
-                height={1380}
+                fill
                 src="https://media.designcafe.com/wp-content/uploads/2020/01/21003839/floor-tiles-designs-for-living-room.jpg"
                 alt="Living Area"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
