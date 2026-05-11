@@ -7,7 +7,7 @@ import "animate.css"; // Import the library
 
 const RoomInspiration = () => {
   return (
-    <section className="py-24 bg-base-100 overflow-hidden">
+    <section className="py-24 bg-base-100 overflow-hidden font-serif">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header - Animated with FadeInDown */}
         <div className="text-center mb-16 animate__animated animate__fadeInDown">

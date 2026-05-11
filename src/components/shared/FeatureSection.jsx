@@ -22,7 +22,7 @@ const FeatureSection = () => {
   };
 
   return (
-    <section className="py-20 px-6 max-w-7xl mx-auto">
+    <section className="py-20 px-6 max-w-7xl mx-auto font-serif">
       <div className="flex justify-between items-end mb-12">
         <div>
           <h2 className="text-4xl font-black uppercase italic tracking-tight">

@@ -30,7 +30,7 @@ const AllTiles = () => {
 
   return (
     <div>
-      <div className="p-10">
+      <div className="p-10 font-serif">
         {/* 3-Column Grid Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {tilesData.map((tile) => (

@@ -19,7 +19,7 @@ const MissionStats = () => {
   }));
 
   return (
-    <section className="py-20 px-4 max-w-6xl mx-auto">
+    <section className="py-20 px-4 max-w-6xl mx-auto font-serif">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         {/* Text Section */}
         <div className="animate__animated animate__fadeIn">
