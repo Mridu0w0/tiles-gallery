@@ -29,6 +29,7 @@ Start the development server:
 
 Bash
 npm run dev
+
 🔒 Authentication Logic
 The project uses BetterAuth for robust security.
 
@@ -37,6 +38,7 @@ Registration/Login: Destructured form data handling via react-hook-form for clea
 Middleware: Path-based protection. The current configuration protects /profile and /tiles/:path+ (details) while keeping /tiles (gallery) public for discovery.
 
 📁 Project Structure
+
 Plaintext
 ├── public/
 │ └── data.json # Mock data for tiles and collections
