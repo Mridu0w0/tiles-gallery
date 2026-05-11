@@ -26,10 +26,10 @@ const HomePage = () => {
         />
 
         {/* The Overlay */}
-        <div className="hero-overlay bg-opacity-70  absolute inset-0 z-[1]"></div>
+        <div className="hero-overlay bg-opacity-70  absolute inset-0 z-1"></div>
 
         {/* The Content */}
-        <div className="hero-content text-center text-neutral-content relative z-[2]">
+        <div className="hero-content text-center text-neutral-content relative z-2">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold uppercase tracking-tighter">
               Discover Your{" "}
