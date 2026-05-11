@@ -71,17 +71,6 @@ const Profile = () => {
               Edit profile
             </button>
           </Link>
-          <Link href="/login">
-            <button
-              onClick={() => {
-                authClient.signOut();
-                window.location.href = "/";
-              }}
-              className="btn btn-ghost btn-block btn-sm text-error/60 hover:text-error my-2 hover:bg-error/10 font-bold uppercase text-[10px] tracking-widest"
-            >
-              Logout
-            </button>
-          </Link>
         </div>
       </div>
     </div>
