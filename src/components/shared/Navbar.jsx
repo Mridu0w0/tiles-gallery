@@ -90,7 +90,7 @@ const Navbar = () => {
       {/* Right: Auth State */}
       <div className="navbar-end gap-2">
         {isPending ? (
-          <span className="loading loading-dots loading-xl"></span>
+          <span></span>
         ) : !session ? (
           <div className="flex gap-2">
             <Link
