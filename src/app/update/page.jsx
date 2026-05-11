@@ -18,7 +18,7 @@ const UpdateProfile = () => {
   };
   return (
     <div>
-      <section className="min-h-[80vh] flex items-center justify-center">
+      <section className="min-h-[80vh] flex items-center justify-center font-serif">
         <div className="card w-full max-w-md bg-base-100 shadow-2xl border border-base-200">
           <div className="card-body">
             <h2 className="card-title text-2xl font-bold mb-6">

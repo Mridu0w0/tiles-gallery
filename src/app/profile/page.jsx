@@ -8,7 +8,7 @@ const Profile = () => {
   const { data: session, isPending } = authClient.useSession();
   const user = session?.user;
   return (
-    <div className="max-w-md mx-auto bg-base-100 rounded-3xl my-10 shadow-xl overflow-hidden border border-base-300">
+    <div className="max-w-md mx-auto bg-base-100 rounded-3xl my-10 shadow-xl overflow-hidden border border-base-300 font-serif">
       {/* Header/Banner Area */}
       <div className="h-24 bg-linear-to-r from-primary to-secondary opacity-80"></div>
 

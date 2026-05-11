@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral text-neutral-content">
+    <footer className="bg-neutral text-neutral-content font-serif">
       {/* Main Footer Content */}
       <div className="footer p-10 max-w-7xl mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {/* Column 1: Brand & Bio */}

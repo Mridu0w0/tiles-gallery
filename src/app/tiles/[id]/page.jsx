@@ -11,7 +11,7 @@ const Details = async ({ params }) => {
   // Guard clause to prevent crashing if ID is not found
   if (!product) {
     return (
-      <div className="h-screen flex items-center justify-center">
+      <div className="h-screen flex items-center justify-center font-serif">
         <div className="text-center">
           <h1 className="text-4xl font-bold">404</h1>
           <p className="py-4">Tile not found.</p>

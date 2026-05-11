@@ -13,7 +13,7 @@ const HomePage = () => {
   const featuredTiles = tiles.slice(0, 4);
 
   return (
-    <div className="min-h-screen bg-base-100">
+    <div className="min-h-screen bg-base-100 font-serif">
       {/* --- 1. BANNER (HERO) --- */}
       <section className="hero min-h-[60vh] relative overflow-hidden">
         {/* The Image Tag */}
@@ -33,7 +33,7 @@ const HomePage = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold uppercase tracking-tighter">
               Discover Your{" "}
-              <span className="bg-linear-to-r from-gray-400 to-blue-800 bg-clip-text text-transparent animate-pulse">
+              <span className="bg-linear-to-r from-white to-blue-800 bg-clip-text text-transparent animate-pulse text-4xl">
                 Perfect Aesthetic
               </span>
             </h1>
