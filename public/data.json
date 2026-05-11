@@ -1,0 +1,111 @@
+    [
+    {
+    "id": "tile_001",
+    "title": "Ceramic Blue Tile",
+    "description": "Premium ceramic tile with blue glaze finish",
+    "image": "/tile1.jpg",
+    "category": "ceramic",
+    "price": 45.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+    },
+
+  {
+    "id": "tile_002",
+    "title": "Carrara White Marble",
+    "description": "Natural Italian marble with elegant grey veining",
+    "image": "/tile2.jpg",
+    "category": "natural stone",
+    "price": 89.50,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Marble",
+    "inStock": true
+  },
+  {
+    "id": "tile_003",
+    "title": "Slate Anthracite",
+    "description": "Textured dark grey slate for a rustic industrial look",
+    "image": "/tile3.jpg",
+    "category": "natural stone",
+    "price": 38.25,
+    "currency": "USD",
+    "dimensions": "30x60 cm",
+    "material": "Slate",
+    "inStock": true
+  },
+  {
+    "id": "tile_004",
+    "title": "Terracotta Classic",
+    "description": "Traditional kiln-fired clay tile with a warm matte finish",
+    "image": "/tile4.jpg",
+    "category": "clay",
+    "price": 29.99,
+    "currency": "USD",
+    "dimensions": "20x20 cm",
+    "material": "Terracotta",
+    "inStock": false
+  },
+  {
+    "id": "tile_005",
+    "title": "Oak Wood-Look Porcelain",
+    "description": "High-durability porcelain with realistic wood grain texture",
+    "image": "/tile5.jpg",
+    "category": "porcelain",
+    "price": 52.00,
+    "currency": "USD",
+    "dimensions": "20x120 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_006",
+    "title": "Emerald Glass Mosaic",
+    "description": "Small iridescent glass tiles perfect for backsplashes",
+    "image": "/tile6.jpg",
+    "category": "glass",
+    "price": 15.50,
+    "currency": "USD",
+    "dimensions": "30x30 cm",
+    "material": "Glass",
+    "inStock": true
+  },
+  {
+    "id": "tile_007",
+    "title": "Travertine Honey",
+    "description": "Cross-cut travertine with a smooth, filled surface",
+    "image": "/tile7.jpg",
+    "category": "natural stone",
+    "price": 64.75,
+    "currency": "USD",
+    "dimensions": "40x40 cm",
+    "material": "Travertine",
+    "inStock": true
+  },
+  {
+    "id": "tile_008",
+    "title": "Moroccan Patterned Cement",
+    "description": "Handcrafted cement tile with intricate geometric patterns",
+    "image": "/tile8.jpg",
+    "category": "cement",
+    "price": 72.00,
+    "currency": "USD",
+    "dimensions": "20x20 cm",
+    "material": "Cement",
+    "inStock": true
+  },
+  {
+    "id": "tile_009",
+    "title": "Granite Graphite",
+    "description": "Heavy-duty polished granite for high-traffic areas",
+    "image": "/tile9.jpg",
+    "category": "natural stone",
+    "price": 95.00,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Granite",
+    "inStock": false
+  }
+]
