@@ -85,10 +85,7 @@ const AllTiles = () => {
                   </span>
 
                   <Link href={`/tiles/${tile.id}`}>
-                    <button
-                      disabled={!tile.inStock}
-                      className="btn btn-primary btn-sm rounded-lg shadow-md"
-                    >
+                    <button className="btn btn-primary btn-sm rounded-lg shadow-md">
                       View Details
                     </button>
                   </Link>
