@@ -52,9 +52,9 @@ const HomePage = () => {
       </section>
       {/* --- 2. MARQUEE SECTION --- */}
       {/* This uses an inline tailwind animation to avoid needing a config file */}
-      <div className="bg-primary py-4 overflow-hidden border-y border-primary-focus">
+      <div className="bg-linear-to-r from-white via-blue-800 to-white  py-4 overflow-hidden border-y border-primary-focus">
         <div className="whitespace-nowrap flex animate-[marquee_30s_linear_infinite]">
-          <div className="flex shrink-0 items-center text-primary-content font-bold uppercase tracking-widest text-sm">
+          <div className="flex shrink-0 items-center  font-bold uppercase tracking-widest text-sm">
             {[1, 2, 3].map((i) => (
               <span key={i} className="flex items-center">
                 <span className="mx-4">
